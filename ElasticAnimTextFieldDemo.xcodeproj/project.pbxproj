@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F438530B20D2041A00BE16C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438530A20D2041A00BE16C1 /* AppDelegate.swift */; };
+		F438530D20D2041A00BE16C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438530C20D2041A00BE16C1 /* ViewController.swift */; };
+		F438531020D2041A00BE16C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F438530E20D2041A00BE16C1 /* Main.storyboard */; };
+		F438531220D2041D00BE16C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F438531120D2041D00BE16C1 /* Assets.xcassets */; };
+		F438531520D2041D00BE16C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F438531320D2041D00BE16C1 /* LaunchScreen.storyboard */; };
+		F438531D20D209AB00BE16C1 /* ElasticAnimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438531C20D209AB00BE16C1 /* ElasticAnimView.swift */; };
+		F438531F20D2191B00BE16C1 /* ElasticAnimTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438531E20D2191B00BE16C1 /* ElasticAnimTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F438530720D2041A00BE16C1 /* ElasticAnimTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElasticAnimTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F438530A20D2041A00BE16C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F438530C20D2041A00BE16C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F438530F20D2041A00BE16C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F438531120D2041D00BE16C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F438531420D2041D00BE16C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F438531620D2041D00BE16C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F438531C20D209AB00BE16C1 /* ElasticAnimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElasticAnimView.swift; sourceTree = "<group>"; };
+		F438531E20D2191B00BE16C1 /* ElasticAnimTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElasticAnimTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F438530420D2041A00BE16C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F43852FE20D2041A00BE16C1 = {
+			isa = PBXGroup;
+			children = (
+				F438530920D2041A00BE16C1 /* ElasticAnimTextFieldDemo */,
+				F438530820D2041A00BE16C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F438530820D2041A00BE16C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F438530720D2041A00BE16C1 /* ElasticAnimTextFieldDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F438530920D2041A00BE16C1 /* ElasticAnimTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F438530A20D2041A00BE16C1 /* AppDelegate.swift */,
+				F438530C20D2041A00BE16C1 /* ViewController.swift */,
+				F438530E20D2041A00BE16C1 /* Main.storyboard */,
+				F438531120D2041D00BE16C1 /* Assets.xcassets */,
+				F438531320D2041D00BE16C1 /* LaunchScreen.storyboard */,
+				F438531620D2041D00BE16C1 /* Info.plist */,
+				F438531C20D209AB00BE16C1 /* ElasticAnimView.swift */,
+				F438531E20D2191B00BE16C1 /* ElasticAnimTextField.swift */,
+			);
+			path = ElasticAnimTextFieldDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F438530620D2041A00BE16C1 /* ElasticAnimTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F438531920D2041D00BE16C1 /* Build configuration list for PBXNativeTarget "ElasticAnimTextFieldDemo" */;
+			buildPhases = (
+				F438530320D2041A00BE16C1 /* Sources */,
+				F438530420D2041A00BE16C1 /* Frameworks */,
+				F438530520D2041A00BE16C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElasticAnimTextFieldDemo;
+			productName = ElasticAnimTextFieldDemo;
+			productReference = F438530720D2041A00BE16C1 /* ElasticAnimTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F43852FF20D2041A00BE16C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "周伟克";
+				TargetAttributes = {
+					F438530620D2041A00BE16C1 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F438530220D2041A00BE16C1 /* Build configuration list for PBXProject "ElasticAnimTextFieldDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F43852FE20D2041A00BE16C1;
+			productRefGroup = F438530820D2041A00BE16C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F438530620D2041A00BE16C1 /* ElasticAnimTextFieldDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F438530520D2041A00BE16C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F438531520D2041D00BE16C1 /* LaunchScreen.storyboard in Resources */,
+				F438531220D2041D00BE16C1 /* Assets.xcassets in Resources */,
+				F438531020D2041A00BE16C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F438530320D2041A00BE16C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F438531F20D2191B00BE16C1 /* ElasticAnimTextField.swift in Sources */,
+				F438530D20D2041A00BE16C1 /* ViewController.swift in Sources */,
+				F438531D20D209AB00BE16C1 /* ElasticAnimView.swift in Sources */,
+				F438530B20D2041A00BE16C1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F438530E20D2041A00BE16C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F438530F20D2041A00BE16C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F438531320D2041D00BE16C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F438531420D2041D00BE16C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F438531720D2041D00BE16C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F438531820D2041D00BE16C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F438531A20D2041D00BE16C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR5U6RACV8;
+				INFOPLIST_FILE = ElasticAnimTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwk.ElasticAnimTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F438531B20D2041D00BE16C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR5U6RACV8;
+				INFOPLIST_FILE = ElasticAnimTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwk.ElasticAnimTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F438530220D2041A00BE16C1 /* Build configuration list for PBXProject "ElasticAnimTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F438531720D2041D00BE16C1 /* Debug */,
+				F438531820D2041D00BE16C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F438531920D2041D00BE16C1 /* Build configuration list for PBXNativeTarget "ElasticAnimTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F438531A20D2041D00BE16C1 /* Debug */,
+				F438531B20D2041D00BE16C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F43852FF20D2041A00BE16C1 /* Project object */;
+}
